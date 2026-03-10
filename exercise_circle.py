@@ -1,6 +1,3 @@
-from math import pi
-
-
 def circle():
     """
     Ejercicio 6 - Geometría de Círculo
@@ -10,3 +7,7 @@ def circle():
     2. La circunferencia (2 × π × radio)
     """
     radio = 5
+    import math
+
+    print(math.pi * 5**2)
+    print(2 * math.pi * 5)
