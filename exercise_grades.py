@@ -1,22 +1,18 @@
-def math():
+def grades():
     """
-    Ejercicio 1 - Operaciones Matemáticas
+    Ejercicio 11 - Promedio de Calificaciones
 
-    Dado dos números enteros a y b, imprimir:
-    1. La suma
-    2. La diferencia
-    3. El producto
-    4. El promedio
-    5. El cociente entero
-    6. El resto de la división entera
-    7. El valor real de la división
+    Dadas tres notas, calcular e imprimir:
+    1. El promedio de las tres notas
+    2. La nota máxima
+    3. La nota mínima
+    4. Cuántos puntos faltan del promedio a 10
     """
-    a = 57
-    b = 7
-    print(a + b)
-    print(a - b)
-    print(a * b)
-    print((a+b)/2)
-    print(a // b)
-    print(a % b)
-    print(a / b)
+    nota1 = 8
+    nota2 = 7
+    nota3 = 9
+
+    print((nota1 + nota2 + nota3) / 3)
+    print(max(nota1, nota2, nota3))
+    print(min(nota1, nota2, nota3))
+    print(10 - ((nota1 + nota2 + nota3) / 3))
